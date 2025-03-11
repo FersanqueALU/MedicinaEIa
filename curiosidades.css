@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header {
     background: #002244;
@@ -26,6 +29,7 @@ nav a {
     background: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
 }
 .curiosities {
     text-align: left;
@@ -38,8 +42,8 @@ nav a {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 footer {
-    margin-top: 20px;
     background: #002244;
     color: white;
     padding: 20px;
+    margin-top: auto;
 }

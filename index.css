@@ -33,8 +33,21 @@ nav a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex: 1;
 }
-section {
+.inicio {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+.inicio section h2{
+    text-align: left;
     margin: 20px 0;
+}
+.inicio .media h2{
+    text-align: center;
 }
 h2 {
     color: #002244;
@@ -49,4 +62,35 @@ footer {
     background: #002244;
     color: white;
     margin-top: auto;
+}
+h2{
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.curiosities {
+    text-align: left;
+    margin-top: 20px;
+}
+.curiosities img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.benefits {
+    text-align: left;
+    margin-top: 20px;
 }
